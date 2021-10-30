@@ -1,0 +1,37 @@
+{
+  "name": "kutumb-bot",
+  "version": "1.0.0",
+  "description": "A bot for Kutumb discord server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node -r dotenv/config index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priyansh32/kutumb-bot.git"
+  },
+  "keywords": [
+    "Bot",
+    "for",
+    "kutumb",
+    "discord",
+    "server"
+  ],
+  "author": "priyansh32",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priyansh32/kutumb-bot/issues"
+  },
+  "homepage": "https://github.com/priyansh32/kutumb-bot#readme",
+  "dependencies": {
+    "@discordjs/builders": "^0.8.1",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "discord-api-types": "^0.24.0",
+    "discord.js": "^13.2.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
